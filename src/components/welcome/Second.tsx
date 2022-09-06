@@ -1,8 +1,8 @@
 import { defineComponent } from "vue";
-export const Foo = defineComponent({
+export const Second = defineComponent({
     setup() {
         return () => (
-            <div>Foo</div>
+            <div>Second</div>
         )
     }
 })
