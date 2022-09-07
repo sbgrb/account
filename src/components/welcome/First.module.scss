@@ -1,0 +1,33 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    > .card{
+        background: var(--welcome--card-bg);
+        border-radius: 8px;
+        padding: 16px;
+        margin:16px 16px 0;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        flex-direction: column;
+        align-items: center;
+        
+        > h2{
+            margin-top: 20px;
+        }
+    }
+
+    > .actions{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 16px;
+        padding: 16px 0;
+        font-size: 32px;
+        color: var(--welcome--text);
+        > .fake{
+            visibility: hidden;
+        }
+    }
+}

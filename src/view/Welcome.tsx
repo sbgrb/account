@@ -1,7 +1,7 @@
 import { defineComponent } from "vue";
 import { RouterView } from "vue-router";
 import s from './Welcome.module.scss'
-import logo from './../assets/vue.svg'
+import logo from './../assets/icons/logo.svg'
 export const Welcome = defineComponent({
     setup:()=> {
         return () => <div class={s.wrapper}>
@@ -10,7 +10,6 @@ export const Welcome = defineComponent({
                 <h1>记账</h1>
             </header>
             <main><RouterView/></main>
-            <footer>22</footer>
         </div>
     }
 })
