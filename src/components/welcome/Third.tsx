@@ -1,5 +1,5 @@
 import { defineComponent } from "vue";
-import s from './First.module.scss';
+import s from './WelcomeLayout.module.scss';
 import chart from '../../assets/icons/chart.svg';
 import { WelcomeLayout } from "./WelcomeLayout";
 export const Third = defineComponent({

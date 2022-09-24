@@ -1,5 +1,5 @@
 import { defineComponent } from "vue";
-import s from './First.module.scss';
+import s from './WelcomeLayout.module.scss';
 import pig from '../../assets/icons/pig.svg';
 import { WelcomeLayout } from './WelcomeLayout';
 export const First = defineComponent({
